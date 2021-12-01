@@ -1,305 +1,203 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    
-<meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1">
-
-
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
-
-
-
-
-
-
-
-
-
-
-  <link rel="alternate" href="/default" title="Hexo" >
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=1.1" />
-
-
-
-<link rel="canonical" href="http://example.com/"/>
-
-
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>清江月近人</title><meta name="author" content="清江月近人"><meta name="copyright" content="清江月近人"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="清江月近人">
 <meta property="og:url" content="http://example.com/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="清江月近人">
 <meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
+<meta property="og:image" content="http://example.com/img/touxiang.jpg">
+<meta property="article:author" content="清江月近人">
 <meta name="twitter:card" content="summary">
-
-
-<link rel="stylesheet" type="text/css" href="/css/style.css?v=1.1" />
-<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
-
-
-
-
-
-<script type="text/javascript">
-  var themeConfig = {
-    fancybox: {
-      enable: false
+<meta name="twitter:image" content="http://example.com/img/touxiang.jpg"><link rel="shortcut icon" href="/img/favicon.ico"><link rel="canonical" href="http://example.com/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
     },
-  };
-</script>
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '清江月近人',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2021-12-01 22:24:36'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
 
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
 
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
 
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
 
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
   
-
-
-
-    <title> Hexo - </title>
-  <meta name="generator" content="Hexo 5.4.0"></head>
-
-  <body>
-    <div id="page">
-      <header id="masthead"><div class="site-header-inner">
-    <h1 class="site-title">
-        <a href="/." class="logo">清江月近人</a>
-    </h1>
-
-    <nav id="nav-top">
-        
-            <ul id="menu-top" class="nav-top-items">
-                
-                    <li class="menu-item">
-                        <a href="/archives">
-                            
-                            
-                                Archives
-                            
-                        </a>
-                    </li>
-                
-                    <li class="menu-item">
-                        <a href="/about">
-                            
-                            
-                                About
-                            
-                        </a>
-                    </li>
-                
-            </ul>
-        
-  </nav>
-</div>
-
-      </header>
-      <div id="content">
-        
-    <div id="primary" class="home">
-        
-            
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        
-          <a class="post-link" href="/2021/11/28/%E8%BF%9B%E5%88%B6/">进制</a>
-        
-      </h1>
-
-      <time class="post-time">
-          Nov 28 2021
-      </time>
-    </header>
-
-
-
-    
-        <div class="post-excerpt post-content">
-            
-            
-
-            
-          
-
-    
-  </article>
-
-        
-            
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        
-          <a class="post-link" href="/2021/11/25/%E8%BF%90%E7%AE%97%E7%AC%A6/">运算符</a>
-        
-      </h1>
-
-      <time class="post-time">
-          Nov 25 2021
-      </time>
-    </header>
-
-
-
-    
-        <div class="post-excerpt post-content">
-            
-            
-
-            
-          
-
-    
-  </article>
-
-        
-            
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        
-          <a class="post-link" href="/2021/11/24/%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/">基本数据类型转换</a>
-        
-      </h1>
-
-      <time class="post-time">
-          Nov 24 2021
-      </time>
-    </header>
-
-
-
-    
-        <div class="post-excerpt post-content">
-            
-            
-
-            
-          
-
-    
-  </article>
-
-        
-            
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        
-          <a class="post-link" href="/2021/11/19/Doomfist/">Doomfist</a>
-        
-      </h1>
-
-      <time class="post-time">
-          Nov 19 2021
-      </time>
-    </header>
-
-
-
-    
-        <div class="post-excerpt post-content">
-            
-            
-
-            
-          
-
-    
-  </article>
-
-        
-            
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        
-          <a class="post-link" href="/2021/11/18/hello-world/">Hello World</a>
-        
-      </h1>
-
-      <time class="post-time">
-          Nov 18 2021
-      </time>
-    </header>
-
-
-
-    
-        <div class="post-excerpt post-content">
-            
-            
-
-            
-          
-
-    
-  </article>
-
-        
-        
-  <nav class="pagination">
-    
-    
-  </nav>
-
-    </div>
-    <div id="secondary">
-    
-
-    
-
-    
-    <section id="tags" class="widget-area widget_tags">
-        <h3 class="widget-title">Tags</h3>
-        
-    </section>
-
-
-</div>
-
-
-      </div>
-
-      <footer id="colophon"><span class="copyright-year">
-    
-        &copy;
-    
-        2020 -
-    
-    2021
-    <span class="footer-author">清江月近人</span>
-</span>
-
-      </footer>
-
-      <div class="back-to-top" id="back-to-top">
-        <i class="iconfont icon-up"></i>
-      </div>
-    </div>
-    
-
-
-    
-
-
-
-
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
   
-    <script type="text/javascript" src="/lib/jquery/jquery-3.1.1.min.js"></script>
-  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if (GLOBAL_CONFIG_SITE.isHome && /iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/touxiang.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">5</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/%E9%9F%B3%E4%B9%90"><i class="fa-fw /music/"></i><span> 0</span></a></li><li><a class="site-page child" href="/%E7%94%B5%E5%BD%B1"><i class="fa-fw /movies/"></i><span> 1</span></a></li><li><a class="site-page child" href="/%E7%85%A7%E7%89%87"><i class="fa-fw /Gallery/"></i><span> 2</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/img/butterfly.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">清江月近人</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/%E9%9F%B3%E4%B9%90"><i class="fa-fw /music/"></i><span> 0</span></a></li><li><a class="site-page child" href="/%E7%94%B5%E5%BD%B1"><i class="fa-fw /movies/"></i><span> 1</span></a></li><li><a class="site-page child" href="/%E7%85%A7%E7%89%87"><i class="fa-fw /Gallery/"></i><span> 2</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">清江月近人</h1><div id="site-subtitle"><span id="subtitle"></span></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/11/28/%E8%BF%9B%E5%88%B6/" title="进制">     <img class="post_bg" src="/img/gundam.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="进制"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/11/28/%E8%BF%9B%E5%88%B6/" title="进制">进制</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-11-28T13:16:58.707Z" title="Created 2021-11-28 21:16:58">2021-11-28</time></span></div><div class="content">进制介绍对于整数，有四种表示方式： 
+二进制：0,1 ，满 2 进 1.以 0b 或 0B 开头。 
+十进制：0-9 ，满 10 进 1。 
+八进制：0-7 ，满 8 进 1. 以数字 0 开头表示。
+十六进制：0-9 及 A(10)-F(15)，满 16 进 1. 以 0x 或 0X 开头表示。此处的 A-F 不区分大小写。
+进制转换12345二进制转十进制:从最低位(右边)开始,将每个位上的数提取出来,乘以2的(位数-1)次方,然后求和八进制转十进制:从最低位(右边)开始,将每个位上的数提取出来,乘以8的(位数-1)次方,然后求和十六进制转换成十进制:从最低位(右边)开始,将每个位上的数提取出来,乘以16的(位数-1)次方,然后求和
 
-  
+12345十进制转二进制:将该数不断除以 2，直到商为 0 为止，然后将每步得到的余数倒过来十进制转八进制:将该数不断除以 8，直到商为 0 为止，然后将每步得到的余数倒过来十进制转十六进制:将该数不断除以 16，直到商为 0 为止，然后将每步得到的余数倒过来
 
-    <script type="text/javascript" src="/js/src/theme.js?v=1.1"></script>
-<script type="text/javascript" src="/js/src/bootstrap.js?v=1.1"></script>
+123二进制转八进制:从低位开始,将二进制数每三位一组，转成对应的八进制数即可二进制转十 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/11/25/%E8%BF%90%E7%AE%97%E7%AC%A6/" title="运算符">     <img class="post_bg" src="/img/gundam.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="运算符"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/11/25/%E8%BF%90%E7%AE%97%E7%AC%A6/" title="运算符">运算符</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-11-25T12:32:44.589Z" title="Created 2021-11-25 20:32:44">2021-11-25</time></span></div><div class="content">Java算术运算符
+关于”++”前++:++i先自增后赋值后++:i++先赋值后自增
+123456int i = 8;int j = ++i;//等价于 i=i+1; j=i  j=9;i=9;int i = 8;int j = i++;//等价于 j=i; i=i+1; j=8;i=9; 
 
-  </body>
-</html>
+面试题12345int i = 1;i=i++;System.out.println(i);//问:结果是多少?为什么? //i=1;使用了临时变量(1)temp=i;(2)i=i+1;(3)i=temp;
+
+12345int i = 1;i=++i;System.out.println(i);//问:结果是多少?为什么? //i=2;使用了临时变量(1)i=i+1;(2)temp=i;(3)i=temp;
+
+逻辑运算符:&amp;&amp;短路与:如果第一个条件为false,后面的条件不在判断&amp;逻辑与:如果第一个条件为false,后面的条件仍然判断||短路或:如果第一个条件为true,则第二个条件不会判断,最终为true|逻辑或:不管第一个条件是否为true,第二个条件都要判断,效率低 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/11/24/%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/" title="基本数据类型转换">     <img class="post_bg" src="/img/gundam.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="基本数据类型转换"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/11/24/%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/" title="基本数据类型转换">基本数据类型转换</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-11-24T11:53:00.684Z" title="Created 2021-11-24 19:53:00">2021-11-24</time></span></div><div class="content">Java基本数据类型转换规则
+自动类型转换当Java程序在进行赋值或者运算时,精度小的类型自动转换为精度大的数据类型,这就是自动类型转换数据类型按精度(容量)大小排序为:char-&gt;int-&gt;long-&gt;float-&gt;doublebyte-&gt;short-&gt;int-&gt;long-&gt;float-&gt;double
+细节byte,short,char,在计算时首先转换为int类型,只要计算,都为int类型自动提升:表达式结果的类型自动提升为操作数中最大的类型
+</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/11/19/Doomfist/" title="Doomfist">     <img class="post_bg" src="/img/gundam.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Doomfist"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/11/19/Doomfist/" title="Doomfist">Doomfist</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-11-19T13:36:51.805Z" title="Created 2021-11-19 21:36:51">2021-11-19</time></span></div><div class="content">欢迎来到末日铁拳的英雄介绍
+简介本名阿坎·奥古迪姆。“末日铁拳”身上的机械元件使他成为一名高机动力、高破坏力的前线战士。除了用手炮从远距离造成伤害，”末日铁拳”还能猛击地面，将敌人击飞或令其失去平衡，或者用火箭重拳冲进战场。当面对一群阵型紧密的敌人时，”末日铁拳”可以跳到敌人视野之外，紧接着以毁天灭地之势坠落强袭。
+详解: Writing
+背景故事“不经历冲突怎能不断进化。”刚刚逃出牢狱的“末日铁拳”决意将世界扯入新的冲突，因为他相信只有这样才能让人类变强。阿坎·奥古迪姆出生于尼日利亚一个名声显赫的家族，生来就注定继承家族的义体科技公司。奥古迪姆兼具智慧和人格魅力，他帮忙扩张了家族的生意，为公司的未来奠定了方向。而在闲余时间，他则全身心投入到他的爱好——竞技武术。他学习了丹倍和吉迪搏等传统非洲格斗术，还有摔跤等现代格斗术，并将其中最高效的招式融会贯通，自成一派。奥古迪姆巡回全大陆参加比赛，他利用直觉和技术洞察对手，再用惊人的速度和力量取胜。然而，他在智械危机后不久失去右臂，而他的武术生涯还没来得及登上巅峰就结束了。他公司的机械义体技术治好了他的伤病，甚至还让他变得更强，但这些强化肢体也 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/11/18/hello-world/" title="Hello World">     <img class="post_bg" src="/img/gundam.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/11/18/hello-world/" title="Hello World">Hello World</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-11-18T13:19:21.993Z" title="Created 2021-11-18 21:19:21">2021-11-18</time></span></div><div class="content">欢迎来到清江月近人的博客
+Quick StartCreate a new post1$ hexo new &quot;My New Post&quot;
+
+More info: Writing
+Run server1$ hexo server
+
+More info: Server
+Generate static files1$ hexo generate
+
+More info: Generating
+Deploy to remote sites1$ hexo deploy
+
+More info: Deployment
+</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/touxiang.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">清江月近人</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">5</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2021/11/28/%E8%BF%9B%E5%88%B6/" title="进制"><img src="/img/gundam.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="进制"/></a><div class="content"><a class="title" href="/2021/11/28/%E8%BF%9B%E5%88%B6/" title="进制">进制</a><time datetime="2021-11-28T13:16:58.707Z" title="Created 2021-11-28 21:16:58">2021-11-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/11/25/%E8%BF%90%E7%AE%97%E7%AC%A6/" title="运算符"><img src="/img/gundam.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="运算符"/></a><div class="content"><a class="title" href="/2021/11/25/%E8%BF%90%E7%AE%97%E7%AC%A6/" title="运算符">运算符</a><time datetime="2021-11-25T12:32:44.589Z" title="Created 2021-11-25 20:32:44">2021-11-25</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/11/24/%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/" title="基本数据类型转换"><img src="/img/gundam.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="基本数据类型转换"/></a><div class="content"><a class="title" href="/2021/11/24/%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/" title="基本数据类型转换">基本数据类型转换</a><time datetime="2021-11-24T11:53:00.684Z" title="Created 2021-11-24 19:53:00">2021-11-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/11/19/Doomfist/" title="Doomfist"><img src="/img/gundam.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Doomfist"/></a><div class="content"><a class="title" href="/2021/11/19/Doomfist/" title="Doomfist">Doomfist</a><time datetime="2021-11-19T13:36:51.805Z" title="Created 2021-11-19 21:36:51">2021-11-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/11/18/hello-world/" title="Hello World"><img src="/img/gundam.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"/></a><div class="content"><a class="title" href="/2021/11/18/hello-world/" title="Hello World">Hello World</a><time datetime="2021-11-18T13:19:21.993Z" title="Created 2021-11-18 21:19:21">2021-11-18</time></div></div></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>Archives</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/11/"><span class="card-archive-list-date">November 2021</span><span class="card-archive-list-count">5</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article :</div><div class="item-count">5</div></div><div class="webinfo-item"><div class="item-name">UV :</div><div class="item-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="item-name">PV :</div><div class="item-count" id="busuanzi_value_site_pv"></div></div><div class="webinfo-item"><div class="item-name">Last Push :</div><div class="item-count" id="last-push-date" data-lastPushDate="2021-12-01T14:24:36.529Z"></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By 清江月近人</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"><script>function subtitleType () {
+  if (false) { 
+    var typed = new Typed("#subtitle", {
+      strings: "凡人真是不得自由的物种".split(","),
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50
+    })
+  } else {
+    document.getElementById("subtitle").innerHTML = '凡人真是不得自由的物种'
+  }
+}
+
+if (false) {
+  if (typeof Typed === 'function') {
+    subtitleType()
+  } else {
+    getScript('https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js').then(subtitleType)
+  }
+} else {
+  subtitleType()
+}</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
