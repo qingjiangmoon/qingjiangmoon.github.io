@@ -1359,8 +1359,6 @@ input::placeholder {
   background: img/butterfly.png;
   background-attachment: local;
   background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -3280,8 +3278,6 @@ blockquote footer cite:before {
   background: #755cff;
   background-attachment: local;
   background-position: bottom;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
 }
 #footer:before {
@@ -3317,8 +3313,6 @@ blockquote footer cite:before {
   width: 100%;
   background-color: #755cff;
   background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
   -webkit-transition: all 0.5s;
